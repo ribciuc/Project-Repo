@@ -1,0 +1,10 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+This project took two large datasets, "train", and "test", then added to each two additional columns (ACTIVITIES, SUBJECTS), to designate the activity performed and the subject performing it.
+
+Then the "train" and "test" datasets were merged.  A large number of variables were dropped since the purpose of the project was to illustrate grouping data by activities and subjects only, in the end retaining only one numeric variable, re-named tBodyAccX.
+
+The units of each variable can be found in the documentation of the original dataset.
